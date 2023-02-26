@@ -1,0 +1,16 @@
+-- create database Employee
+-- create table EmployeeDetails(
+-- Emp_id int primary key not null,
+-- Emp_name varchar(15) not null,
+-- Job_name varchar(15) not null,
+-- Manager_id int not null,
+-- Hire_date varchar(30) not null,
+-- Salary int not null,
+-- Dep_id int not null
+-- );
+-- insert into EmployeeDetails values(68319,"Mr.Singh","PRESIDENT",68319,"1999-11-1",6000,1001)
+-- insert into EmployeeDetails values(68320,"Srvani","Vice PRESIDENT",68319,"1998-5-21",5000,1002)
+-- insert into EmployeeDetails values(68321,"Sravanthi","product Manager",68318,"2000-2-13",3000,1015)
+-- insert into EmployeeDetails values(68322,"janaki","DirectorManager",68331,"2003-01-04",5500,10063)
+-- SELECT * FROM employeedetails;
+select Salary from employeedetails;
